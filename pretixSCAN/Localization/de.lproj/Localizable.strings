@@ -72,8 +72,8 @@
 "Paid" = "bezahlt";
 /* Order Pending */
 "Pending" = "ausstehend";
-"pretixSCAN" = "pretixSCAN";
-"pretixSCAN is an event entry app that you can use to validate tickets that you sold through pretix." = "pretixSCAN ist eine App für den Veranstaltungseinlass mit der Sie Tickets scannen können, die Sie mit pretix verkauft haben.";
+"BackstageSCAN" = "BackstageSCAN";
+"BackstageSCAN is an event entry app that you can use to validate tickets that you sold through pretix." = "BackstageSCAN ist eine App für den Veranstaltungseinlass mit der Sie Tickets scannen können, die Sie mit pretix verkauft haben.";
 /* Ticket is Unpaid */
 "Product" = "Produkt";
 "Reset Contents and Settings" = "Daten löschen und Einstellungen zurücksetzen";

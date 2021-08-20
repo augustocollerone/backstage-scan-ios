@@ -43,6 +43,19 @@ class SettingsTableViewController: UITableViewController, Configurable {
         versionCell.detailTextLabel?.text = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? "n/a"
 
         resetContentCell.textLabel?.text = Localization.SettingsTableViewController.PerformFactoryReset
+        
+        let redView = UIView()
+        redView.backgroundColor = .red
+        redView.translatesAutoresizingMaskIntoConstraints = false
+        resetContentCell.contentView.addSubview(redView)
+        
+        NSLayoutConstraint.activate([
+            redView.widthAnchor.constraint(equalTo: resetContentCell.contentView.widthAnchor),
+            redView.heightAnchor.constraint(equalToConstant: 100),
+//            redView.heightAnchor.constraint(equalTo: resetContentCell.contentView.heightAnchor),
+            redView.centerXAnchor.constraint(equalTo: resetContentCell.contentView.centerXAnchor),
+            redView.centerYAnchor.constraint(equalTo: resetContentCell.contentView.centerYAnchor),
+        ])
 
         offlineModeCell.valueLabel?.text = configStore?.asyncModeEnabled == true ?
             Localization.SettingsTableViewController.SyncModeOffline : Localization.SettingsTableViewController.SyncModeOnline

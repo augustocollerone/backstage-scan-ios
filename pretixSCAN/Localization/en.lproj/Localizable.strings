@@ -168,10 +168,10 @@
 "Pending" = "Pending";
 
 /* No comment provided by engineer. */
-"pretixSCAN" = "pretixSCAN";
+"BackstageSCAN" = "BackstageSCAN";
 
 /* No comment provided by engineer. */
-"pretixSCAN is an event entry app that you can use to validate tickets that you sold through pretix." = "pretixSCAN is an event entry app that you can use to validate tickets that you sold through pretix.";
+"BackstageSCAN is an event entry app that you can use to validate tickets that you sold through pretix." = "BackstageSCAN is an event entry app that you can use to validate tickets that you sold through pretix.";
 
 /* Ticket is Unpaid */
 "Product" = "Product";

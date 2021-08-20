@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:/Users/breakthesystem/Repositories/pretixscan-ios/pretixSCAN.xcodeproj">
+      location = "group:pretixSCAN.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:pretixSCAN.xcodeproj">
    </FileRef>
 </Workspace>
